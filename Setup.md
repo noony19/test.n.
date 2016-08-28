@@ -1,7 +1,7 @@
 # Requirements
 * Windows (or, install ffmpeg and ffprobe on operating system of your choice)
 * [Java JDK 1.8](https://www.google.com/#q=download+jdk+8)
-* Python 2.7+ [(must be on PATH)](https://www.google.com/search?q=add+python+to+system+path)
+* [Python 2.7+](https://www.python.org/downloads/) (must be on [PATH](https://www.google.com/search?q=add+python+to+system+path))
 
 # Downloads
 https://www.dropbox.com/s/5tuj9rhai02ccwh/SpectraMusic%20v0.1%20%28beta%29.zip?dl=0
