@@ -1,6 +1,6 @@
 # Requirements
 * Windows (or, install ffmpeg and ffprobe on operating system of your choice)
-* Java JDK 1.8
+* [Java JDK 1.8](https://www.google.com/#q=download+jdk+8)
 * Python 2.7+ [(must be on PATH)](https://www.google.com/search?q=add+python+to+system+path)
 
 # Downloads
