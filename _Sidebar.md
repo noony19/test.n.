@@ -1,0 +1,1 @@
+<iframe src="https://discordapp.com/widget?id=147698382092238848&theme=dark" allowtransparency="true" frameborder="0"></iframe>
