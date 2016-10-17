@@ -4,7 +4,7 @@
 * [Python 2.7+](https://www.python.org/downloads/) (must be on [PATH](https://www.google.com/search?q=add+python+to+system+path))
 
 # Downloads
-https://goo.gl/xy0nP3
+https://goo.gl/3IEJPc
 
 # Setup
 1. Download the zip above, and unzip it
