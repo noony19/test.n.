@@ -4,7 +4,7 @@
 * [Python 2.7+](https://www.python.org/downloads/) (must be on [PATH](https://www.google.com/search?q=add+python+to+system+path))
 
 # Downloads
-https://www.dropbox.com/s/g7b1j89hba9fcn5/SpectraMusic%20v0.2%20%28beta%29.zip?dl=0
+https://goo.gl/xy0nP3
 
 # Setup
 1. Download the zip above, and unzip it
