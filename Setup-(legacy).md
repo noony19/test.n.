@@ -1,3 +1,5 @@
+**Note: This page is for the legacy music bot; for current releases, please see [[Setup]]**
+
 # Requirements
 * Windows (or, install ffmpeg and ffprobe on operating system of your choice)
 * [Java JDK 1.8](https://www.google.com/#q=download+jdk+8)
