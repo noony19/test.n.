@@ -1,4 +1,4 @@
-Welcome to the Spectra-Music wiki!
+Welcome to the JMusicBot wiki!
 
 Please check the [[Setup]] page for how to set up the bot!
 
