@@ -6,7 +6,7 @@ Download the latest jar (and optionally, example config file) from the [releases
 
 # Setup
 * Download the jar file (and the config, optional) from the [releases](https://github.com/jagrosh/MusicBot/releases) page.
-* Fill in the config file (if you downloaded it). If you didn't download it, you will be prompted when you run for the first time. An example config is provided below (See [[Getting a Bot Token]] and [[Finding Your User ID]] if you need help with the config).
+* Fill in the config file (if you downloaded it). If you didn't download it, you will be prompted when you run for the first time. An example `config.txt` is provided below (See [[Getting a Bot Token]] and [[Finding Your User ID]] if you need help with the config).<br>
 ```
 token=MJHJkljflksdjfCoolTokenDudeILikeItkasdk
 owner=113156185389092864
