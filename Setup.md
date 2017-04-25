@@ -7,7 +7,7 @@ Download the latest **JMusicBot-X.Y.Z.jar** (and optionally, example **config.tx
 
 # Setup
 * Download the **JMusicBot-X.Y.Z.jar** file (and the **config.txt**, optional) from the [releases](https://github.com/jagrosh/MusicBot/releases/latest) page. Your folder should look like this:<br>
-![View](http://i.imgur.com/iF4jMXH.png)
+![View](http://i.imgur.com/14x9uDy.png)
 * Fill in the config file (if you downloaded it). If you didn't download it, you will be prompted when you run for the first time. An example `config.txt` is provided below (See [[Getting a Bot Token]] and [[Finding Your User ID]] if you need help with the config).<br>
 ```
 token=MJHJkljflksdjfCoolTokenDudeILikeItkasdk
