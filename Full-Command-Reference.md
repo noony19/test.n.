@@ -14,6 +14,8 @@ These commands are related to playing music, available to all users. If a TextCh
 
 **`nowplaying`** (or `np` or `current`) - shows information about the song that is currently playing (name, user that added it, current timestamp, and song URL)
 
+**`play`** - shows the play commands. If the player is paused, it resumes the player.
+
 **`play <URL>`** - plays the song or stream at the provided URL. Supported locations include (but are not limited to): YouTube (and playlists), SoundCloud, BandCamp, Vimeo, and Twitch. Local files or URLs of the following formats are also supported: MP3, FLAC, WAV, Matroska/WebM (AAC, Opus or Vorbis codecs), MP4/M4A (AAC codec), OGG streams (Opus, Vorbis and FLAC codecs), AAC streams, Stream playlists (M3U and PLS)
 
 **`play <song name>`** - plays the top YouTube result for the specified song name
@@ -40,6 +42,8 @@ These commands are related to playing music, available to all users. If a TextCh
 All Admins can automatically use DJ commands. Admins can also assign one server role to be the "DJ role," which allows anyone with that role to use these commands as well.
 
 **`forceskip`** - forcibly skips the current song, regardless of who added it and how many votes there are to skip it
+
+**`pause`** - pauses the player. The player remains paused until a DJ or Admin uses the `play` command
 
 **`skipto <position>`** - skips forward in the queue to the provided song number, playing that song and removing any songs before that from the queue
 
