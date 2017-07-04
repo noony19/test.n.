@@ -1,3 +1,4 @@
+```
 /////////////////////////////////////////////////////////
 // Config for the JMusicBot                            //
 /////////////////////////////////////////////////////////
@@ -70,3 +71,4 @@ prefix=!!
 // so this option is not recommended if bandwidth is a concern.
 //
 //stayinchannel=true
+```
