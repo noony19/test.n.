@@ -1,6 +1,3 @@
-Below you'll find an example config file. This file is also included in the [releases](https://github.com/jagrosh/MusicBot/releases/latest).
-
-```
 /////////////////////////////////////////////////////////
 // Config for the JMusicBot                            //
 /////////////////////////////////////////////////////////
@@ -35,6 +32,13 @@ owner=
 prefix=!!
 
 
+/////////////////////////////////////////////////////////////
+// If you change any of the settings below here, make sure //
+// to remove the // at the beginning of the line with the  //
+// setting. Any line starting with // is ignored!          //
+/////////////////////////////////////////////////////////////
+
+
 // If you set this, it modifies the default game of the bot
 //
 //game=Example game!
@@ -53,15 +57,16 @@ prefix=!!
 //
 //help=cmds
 
+
 // If you set this, there will not be a progress bar displayed in the channel topic,
 // and instead, just the name of the song and user that added it
 // This is useful for decreasing spam in the audit log, if it is a concern.
 //
 //noprogressintopic=true
 
+
 // If you set this, the bot will not leave a voice channel after it finishes a queue.
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 //
 //stayinchannel=true
-```
