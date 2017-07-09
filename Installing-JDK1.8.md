@@ -15,14 +15,14 @@ sudo apt-get install oracle-java8-installer
 
 # Raspberry Pi
 * Open your terminal (or ssh into your pi)
-* Run the following commands:
+* Run the following command:
+```
+sudo apt-get install oracle-java8-jdk
+```
+* If that didn't successfully install it, run the following commands:
 ```
 sudo apt-get update
 sudo update-alternatives --config java
-```
-* Select Oracle JDK 1.8, then run:
-```
-sudo update-alternatives --config javac
 ```
 * Select Oracle JDK 1.8
 
