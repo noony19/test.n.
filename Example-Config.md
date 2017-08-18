@@ -45,6 +45,19 @@ prefix=!!
 //game=Example game!
 
 
+// If you set this to true, the bot will list the title of the song it is currently playing in its
+// "Playing" status. Note that this will ONLY work if the bot is on ONE guild; if the bot is on
+// multiple guilds, this will not work.
+//
+//songinstatus=true
+
+
+// If you set this, the bot will also use this prefix in addition to
+// the one provided above
+//
+//altprefix=;;
+
+
 // If you set these, it will change the success, warning, and error emojis
 //
 //success=🎶
