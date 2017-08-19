@@ -85,4 +85,6 @@ These commands can only be used by the bot owner (set in the config)
 
 **`setname <name>`** - sets the username of the bot
 
+**`setstatus <status>`** - sets the status of the bot (online, idle, dnd, invisible)
+
 **`shutdown`** - safely shuts down
