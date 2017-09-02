@@ -41,13 +41,20 @@ prefix=!!
 
 
 // If you set this, it modifies the default game of the bot
+// Set this to NONE to have no game
 //
 //game=Example game!
 
 
+// If you set this, it will modify the default status of bot
+// Valid values: ONLINE IDLE DND INVISIBLE
+//
+//status=ONLINE
+
+
 // If you set this to true, the bot will list the title of the song it is currently playing in its
-// "Playing" status. Note that this will ONLY work if the bot is on ONE guild; if the bot is on
-// multiple guilds, this will not work.
+// "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
+// if the bot is playing on multiple guilds, this will not work.
 //
 //songinstatus=true
 
@@ -72,11 +79,12 @@ prefix=!!
 //help=cmds
 
 
-// If you set this, there will not be a progress bar displayed in the channel topic,
-// and instead, just the name of the song and user that added it
-// This is useful for decreasing spam in the audit log, if it is a concern.
+// If you set this, the "nowplaying" command will show youtube thumbnails
+// Note: If you set this to true, the nowplaying boxes will NOT refresh
+// This is because refreshing the boxes causes the image to be reloaded
+// every time it refreshes.
 //
-//noprogressintopic=true
+//npimages=true
 
 
 // If you set this, the bot will not leave a voice channel after it finishes a queue.
@@ -84,4 +92,11 @@ prefix=!!
 // so this option is not recommended if bandwidth is a concern.
 //
 //stayinchannel=true
+
+
+// This sets the maximum amount of seconds any track loaded can be. If not set or set
+// to any number less than or equal to zero, there is no maximum time length. This time
+// restriction applies to songs loaded from any source.
+//
+//maxtime=3600
 ```
