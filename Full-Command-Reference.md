@@ -69,6 +69,8 @@ Admin commands can be used by anyone with the Manage Server permission.
 ### Owner Commands
 These commands can only be used by the bot owner (set in the config)
 
+**`autoplaylist <playlistname>` - sets the default playlist for the server, which plays when the queue is empty and when the bot starts up (identical to `playlist setdefault`)
+
 **`playlist append <playlistname> <item> | [item] | [item]...`** - adds items to an existing playlist. Items must be urls. To add a YouTube search, it must be in the form "ytsearch:query". For a SoundCloud search, use "scsearch:query".
 
 **`playlist delete <playlistname>`** - deletes the playlist file for a playlist
@@ -82,6 +84,8 @@ These commands can only be used by the bot owner (set in the config)
 **`setavatar <url>`** - sets the avatar of the bot
 
 **`setgame [game]`** - sets the game the bot is playing
+
+**`setgame stream <username> <game name>`** - sets the game the bot is "streaming"
 
 **`setname <name>`** - sets the username of the bot
 
