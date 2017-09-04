@@ -69,7 +69,7 @@ Admin commands can be used by anyone with the Manage Server permission.
 ### Owner Commands
 These commands can only be used by the bot owner (set in the config)
 
-**`autoplaylist <playlistname>` - sets the default playlist for the server, which plays when the queue is empty and when the bot starts up (identical to `playlist setdefault`)
+**`autoplaylist <playlistname>`** - sets the default playlist for the server, which plays when the queue is empty and when the bot starts up (identical to `playlist setdefault`)
 
 **`playlist append <playlistname> <item> | [item] | [item]...`** - adds items to an existing playlist. Items must be urls. To add a YouTube search, it must be in the form "ytsearch:query". For a SoundCloud search, use "scsearch:query".
 
