@@ -99,4 +99,17 @@ prefix=!!
 // restriction applies to songs loaded from any source.
 //
 //maxtime=3600
+
+// If you set this to true, it will enable the eval command for the bot owner. This command
+// allows the bot owner to run arbitrary code from the bot's account.
+//
+// WARNING:
+// This command can be extremely dangerous. If you don't know what you're doing, you could
+// cause horrific problems on your Discord server or on whatever computer this bot is running
+// on. Never run this command unless you are completely positive what you are running.
+//
+// DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT THIS DOES OR HOW TO USE IT
+// IF SOMEONE ASKS YOU TO ENABLE THIS, THERE IS AN 11/10 CHANCE THEY ARE TRYING TO SCAM YOU
+//
+//eval=false
 ```
