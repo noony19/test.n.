@@ -1,5 +1,5 @@
 # Requirements
-* [Java JDK 1.8](https://www.google.com/#q=download+jdk+8)
+* [Java JDK 1.8](https://www.google.com/#q=download+jdk+8) (not OpenJDK)
 * Instructions on how to install JDK 8 on your system: [[Installing-JDK1.8]]
 
 # Downloads
