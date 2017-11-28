@@ -7,6 +7,7 @@
 https://discordapp.com/oauth2/authorize?client_id=CLIENTID&scope=bot
 ```
 For example, if you bot's Client ID is `168682538028630017`, your link would be `https://discordapp.com/oauth2/authorize?client_id=168682538028630017&scope=bot`
+
 4. Go to the link you generated, and select a server from the drop-down menu. **You must have the Manage Server permission to add a bot to a server!** If no servers appear, you may need to [log in](https://discordapp.com/login).
 
 ### Troubleshooting
