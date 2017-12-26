@@ -42,8 +42,11 @@ prefix=!!
 
 // If you set this, it modifies the default game of the bot
 // Set this to NONE to have no game
+// You can make the game 'Playing X', 'Listening to X', or 'Watching X'
+// where X is the title. If you don't include an action, it will use the
+// default of 'Playing'
 //
-//game=Example game!
+//game=Listening to Example game!
 
 
 // If you set this, it will modify the default status of bot
