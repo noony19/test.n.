@@ -1,6 +1,6 @@
 If you plan to run this bot on a raspberry pi, there are a few additional steps you will need to take. The default build does not include some required native files for raspberry pi due to filesize concerns (it's already big enough as it is!). Therefore, it is highly recommended that you complete these steps for each release you use. (Also, if you need to install JDK 1.8, please read [[Installing-JDK1.8]]).
 
-1. Download **[libconnector.so](https://cdn.discordapp.com/attachments/154460214769221632/314942913870168064/libconnector.so)**
+1. Download **[libconnector.so](https://cdn.discordapp.com/attachments/154460214769221632/414242970540441620/libconnector.so)**
 
 2. Download the required files from the **[latest release](https://github.com/jagrosh/MusicBot/releases/latest)**
 
