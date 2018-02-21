@@ -17,6 +17,7 @@
 ***
 
 ### Other Links
+- [Planned Features](https://github.com/jagrosh/MusicBot/projects/1)
 - [Development Server](https://discord.gg/0p9LSGoRLu6Pet0k)
 - [Donations](https://www.patreon.com/jagrosh)
 - [Other Music Bots](https://www.discordmusicbots.com/)
