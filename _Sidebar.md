@@ -1,5 +1,6 @@
 ## **[[Setup]]**
-- [Downloads](https://github.com/jagrosh/MusicBot/releases/latest)
+- [[Setup]]
+- [Latest Release Download](https://github.com/jagrosh/MusicBot/releases/latest)
 - [[Installing JDK1.8]]
 - [[Finding Your User ID]]
 - [[Getting a Bot Token]]
