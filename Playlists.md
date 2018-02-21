@@ -13,3 +13,6 @@ Lines starting with `#` or `//` are ignored. To make a playlist automatically sh
 
 # Soundcloud Playlists
 Just use the `play` command followed by the playlist link.
+
+#Spotify
+Unfortunately, Spotify's Terms of Service prevent playing music from Spotify. Please consider using a playlist converter such as [PlaylistConverter.net](http://www.playlist-converter.net/) to convert a Spotify playlist into a YouTube playlist.
