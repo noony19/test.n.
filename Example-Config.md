@@ -11,7 +11,7 @@
 
 // This sets the token for the bot to log in with
 // This MUST be a bot token (user tokens will not work)
-// If you don't know how to get a user token, please see the guide here:
+// If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
 token=
