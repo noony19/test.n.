@@ -12,7 +12,6 @@
 - [[Playlists]]
 - [[Full Command Reference]]
 - [[Example Config]]
-- [[JMusicBot on Raspberry Pi]]
 - [[Setup (Legacy)]]
 
 ***
