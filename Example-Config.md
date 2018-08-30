@@ -68,11 +68,13 @@ prefix=!!
 //altprefix=;;
 
 
-// If you set these, it will change the success, warning, and error emojis
+// If you set these, it will change the various emojis
 //
 //success=🎶
 //warning=💡
 //error=🚫
+//loading=⌚
+//searching=🔎
 
 
 // If you set this, you change the word used to view the help.
