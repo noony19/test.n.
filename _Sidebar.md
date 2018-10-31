@@ -12,7 +12,6 @@
 - [[Playlists]]
 - [[Full Command Reference]]
 - [[Example Config]]
-- [[Setup (Legacy)]]
 
 ***
 
