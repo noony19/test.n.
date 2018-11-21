@@ -1,11 +1,24 @@
 This page will describe, in detail, how to obtain a token for your music bot.
 
-1. Navigate to your [Applications Page](https://discordapp.com/login?redirect_to=/developers/applications/me) (you might need to log in first)
-2. Click the *New App* button<br>![New App](http://i.imgur.com/x28Thko.png)
-3. Add an App Name, and a Description and Icon if you desire, and then click the *Create App* button<br>![Create App](http://i.imgur.com/kArtU8K.png)
-4. When the page finishes loading, click the *Create a Bot User* button<br>![Bot User](http://i.imgur.com/EIoxMoh.png)
-5. Click *Yes, do it!*<br>![Yes](http://i.imgur.com/9mZV7Ug.png)
-5. Uncheck the *Public Bot* checkbox (make sure that both boxes are unchecked)<br>![Public](https://i.imgur.com/PHocE24.png)
-6. Scroll down and click *Save Changes*<br>![Save Changes](http://i.imgur.com/r9dCZIc.png)
-7. After saving, click on the *click to reveal* text to show your bot's token<br>![Token](http://i.imgur.com/W9dLIhV.png)
+1. Navigate to your [Applications Page](https://discordapp.com/login?redirect_to=/developers/applications) (you might need to log in first)
 
+2. Click the *Create an application* button  
+![New App](https://i.imgur.com/dhfojwn.png)
+
+3. On the **General Information** tab, set a Name to identify your application (this is not the bot's name)  
+![Create App](https://i.imgur.com/Ql7m1Yy.png)
+
+4. Navigate to the **Bot** tab and select **Add Bot**  
+![Add Bot](https://i.imgur.com/vrTfS7M.png)
+
+5. Click *Yes, do it!*  
+![Yes](https://i.imgur.com/z6GKYHI.png)
+
+6. Set a name, an avatar (optional), and make sure bot checkboxes are **unchecked**  
+![Settings](https://i.imgur.com/QMAZyv7.png)
+
+7. Save your settings  
+![Save](https://i.imgur.com/5j1XHV4.png)
+
+8. Select the **Copy** button in the token section to copy the bot's token to your clipboard.  
+![Copy Token](https://i.imgur.com/FnAnxKE.png)
