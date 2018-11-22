@@ -13,9 +13,9 @@ Download the latest **JMusicBot-X.Y.Z.jar** (and optionally, example **config.tx
 ```
 token=MJHJkljflksdjfCoolTokenDudeILikeItkasdk
 owner=113156185389092864
-prefix=!
+prefix="!"
 ```
-* Double-click the jar file, or run `java -jar JMusicBot-X.Y.Z.jar -nogui` from the command line. (replace X, Y, and Z with the release numbers)
+* Double-click the jar file, or run `java -Dnogui=true -jar JMusicBot-X.Y.Z.jar` from the command line. (replace X, Y, and Z with the release numbers)
 * Provide the requested information, if prompted.
 * Wait for the "Finished Loading" message.
 * Add the bot to your server. From the [bot application page](https://discordapp.com/developers/applications/me) (where you got the token), find the Client ID and insert it in this link, replacing APP_ID: `​https://discordapp.com/oauth2/authorize?client_id=APP_ID&scope=bot`. If your bot has not been added to any guilds, a link will be provided in the console for you.
