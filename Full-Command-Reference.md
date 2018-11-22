@@ -45,6 +45,8 @@ All Admins can automatically use DJ commands. Admins can also assign one server 
 
 **`pause`** - pauses the player. The player remains paused until a DJ or Admin uses the `play` command
 
+**`playnext <song name | URL>`** - places a single song at the front of the queue to play next (or begins playing if nothing is currently playing)
+
 **`repeat`** - puts the player in (or takes it out of) repeat mode. In repeat mode, when songs end naturally (not removed or skipped), they get put back into the queue.
 
 **`skipto <position>`** - skips forward in the queue to the provided song number, playing that song and removing any songs before that from the queue
