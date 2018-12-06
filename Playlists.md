@@ -24,16 +24,20 @@ Local playlists are .txt files found in the `Playlists` folder in the same folde
 
 Lines starting with `#` or `//` are ignored. To make a playlist automatically shuffle when loaded, add `#shuffle` or `//shuffle` on its own line somewhere in the playlist.
 
-Example Playlist
+Example Playlist:
 ```
 # This is an example playlist
-# You can put this in your Playlists folder
+# You can put this in your Playlists folder as example_playlist.txt
 # shuffle
 
 PLUib4KwT0DMJaPgg_nr1ia8FY5JcXksvb
 ytsearch:gorillaz dare audio
 scsearch:lights metrognome
 https://www.youtube.com/watch?v=x7ogV49WGco
+```
+Example Command:
+```
+!play playlist example_playlist
 ```
 
 
