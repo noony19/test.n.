@@ -3,7 +3,7 @@
 * Instructions on how to install JDK 8 on your system: [[Installing-JDK1.8]]
 
 # Downloads
-Download the latest **JMusicBot-X.Y.Z.jar** (and optionally, example **config.txt** file) from the [releases](https://github.com/jagrosh/MusicBot/releases/latest) page.
+Download the latest **JMusicBot-X.Y.Z.jar** (and optionally, example **config.txt** file) from the [releases](https://github.com/jagrosh/MusicBot/releases/latest) page (or, get the URL from the releases page and then use wget or similar command-line tool to download).
 
 # Setup
 * Download the **JMusicBot-X.Y.Z.jar** file (and the **config.txt**, optional) from the [releases](https://github.com/jagrosh/MusicBot/releases/latest) page. Your folder should look like this:<br>
