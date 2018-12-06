@@ -1,98 +1,144 @@
 This page contains the full list of commands. These commands (and descriptions) can also be seen via the `help` command.
 
-### General Commands
+Arguments surrounded by `<>` are required, and arguments surrounded by `[]` are optional. Do not include `<>` nor `[]` when running commands!
+
+
+## 📜 General Commands
 These commands are just general-use commands to see information about the bot
 
-**`about`** - shows basic information about the bot, including its library, framework, and some statistics
+### `about`
+Shows basic information about the bot, including its library, framework, and some statistics
 
-**`ping`** - shows the latency between the bot and Discord. In general, 80-250ms is a normal value.
+### `ping`
+Shows the latency between the bot and Discord. In general, 80-250ms is a normal value.
 
-**`settings`** - shows the settings for the current server. This includes Text Channel, Voice Channel, DJ Role, and Default Playlist. This command also shows the number of servers the bot is on, and how many audio connections there currently are.
+### `settings`
+Shows the settings for the current server. This includes Text Channel, Voice Channel, DJ Role, and Default Playlist. This command also shows the number of servers the bot is on, and how many audio connections there currently are.
 
-### Music Commands
+
+## 📜 Music Commands
 These commands are related to playing music, available to all users. If a TextChannel is set, these commands can only be used in that channel. 
 
-**`nowplaying`** (or `np` or `current`) - shows information about the song that is currently playing (name, user that added it, current timestamp, and song URL)
+### `nowplaying` (or `np` or `current`)
+Shows information about the song that is currently playing (name, user that added it, current timestamp, and song URL)
 
-**`play`** - shows the play commands. If the player is paused, it resumes the player.
+### `play`
+Shows the play commands. If the player is paused, it resumes the player.
 
-**`play <URL>`** - plays the song or stream at the provided URL. Supported locations include (but are not limited to): YouTube (and playlists), SoundCloud, BandCamp, Vimeo, and Twitch. Local files or URLs of the following formats are also supported: MP3, FLAC, WAV, Matroska/WebM (AAC, Opus or Vorbis codecs), MP4/M4A (AAC codec), OGG streams (Opus, Vorbis and FLAC codecs), AAC streams, Stream playlists (M3U and PLS)
+### `play <URL>`
+Plays the song or stream at the provided URL. Supported locations include (but are not limited to): YouTube (and playlists), SoundCloud, BandCamp, Vimeo, and Twitch. Local files or URLs of the following formats are also supported: MP3, FLAC, WAV, Matroska/WebM (AAC, Opus or Vorbis codecs), MP4/M4A (AAC codec), OGG streams (Opus, Vorbis and FLAC codecs), AAC streams, Stream playlists (M3U and PLS)
 
-**`play <song name>`** - plays the top YouTube result for the specified song name
+### `play <song name>`
+Plays the top YouTube result for the specified song name
 
-**`play playlist <playlistname>`** (or `play pl <playlistname>`) - plays all songs in the specified playlist. There must already be a playlist of the specified name in the Playlists folder
+### `play playlist <playlistname>` (or `play pl <playlistname>`)
+Plays all songs in the specified playlist. There must already be a playlist of the specified name in the Playlists folder
 
-**`playlists`** - shows available playlists. These playlists must be inside the Playlists folder.
+### `playlists`
+Shows available playlists. These playlists must be inside the Playlists folder.
 
-**`queue [pagenum]`** (or `list [pagenum]`) - shows songs in the queue. If no page number is provided, it defaults to the first page.
+### `queue [pagenum]` (or `list [pagenum]`) 
+Shows songs in the queue. If no page number is provided, it defaults to the first page.
 
-**`remove <songnum>`** (or `delete <songnum>`) - removes the song at the provided position in the queue. You can only remove songs that you added, unless you are an Admin or have the specified DJ role.
+### `remove <songnum>` (or `delete <songnum>`)
+Removes the song at the provided position in the queue. You can only remove songs that you added, unless you are an Admin or have the specified DJ role.
 
-**`remove all`** (or `delete all`) - removes all songs that you have added to the queue
+### `remove all` (or `delete all`)
+Removes all songs that you have added to the queue
 
-**`search <query>`** - shows the top YouTube results for a search and allows you to select one to add to the queue
+### `search <query>` (or `ytsearch <query>`)
+Shows the top YouTube results for a search and allows you to select one to add to the queue
 
-**`scsearch <query>`** - shows the top SoundCloud results for a search and allows you to select one to add to the queue
+### `scsearch <query>`
+Shows the top SoundCloud results for a search and allows you to select one to add to the queue
 
-**`shuffle`** - shuffles (changes the order, randomly) of songs that you have added to the queue
+### `shuffle`
+Shuffles (changes the order, randomly) of songs that you have added to the queue
 
-**`skip`** (or `voteskip`) - skips a song if you added it. If you didn't add it, it adds your vote to skip it. Approximately 60% of active listeners need to vote to skip a song for it to be skipped.
+### `skip` (or `voteskip`)
+Skips a song if you added it. If you didn't add it, it adds your vote to skip it. Approximately 60% of active listeners need to vote to skip a song for it to be skipped.
 
-### DJ Commands
+
+## 📜 DJ Commands
 All Admins can automatically use DJ commands. Admins can also assign one server role to be the "DJ role," which allows anyone with that role to use these commands as well.
 
-**`forceskip`** - forcibly skips the current song, regardless of who added it and how many votes there are to skip it
+### `forceskip` (or `modskip`)
+Forcibly skips the current song, regardless of who added it and how many votes there are to skip it
 
-**`pause`** - pauses the player. The player remains paused until a DJ or Admin uses the `play` command
+### `pause`
+Pauses the player. The player remains paused until a DJ or Admin uses the `play` command
 
-**`playnext <song name | URL>`** - places a single song at the front of the queue to play next (or begins playing if nothing is currently playing)
+### `playnext <song name | URL>`
+Places a single song at the front of the queue to play next (or begins playing if nothing is currently playing)
 
-**`repeat`** - puts the player in (or takes it out of) repeat mode. In repeat mode, when songs end naturally (not removed or skipped), they get put back into the queue.
+### `repeat [on | off]`
+Puts the player in (or takes it out of) repeat mode. In repeat mode, when songs end naturally (not removed or skipped), they get put back into the queue.
 
-**`skipto <position>`** - skips forward in the queue to the provided song number, playing that song and removing any songs before that from the queue
+### `skipto <position>`
+Skips forward in the queue to the provided song number, playing that song and removing any songs before that from the queue
 
-**`stop`** - clears the queue, ends the current song, and leaves the voice channel
+### `stop`
+Clears the queue, ends the current song, and leaves the voice channel
 
-**`volume [0-150]`** (or `vol [0-150]`) - shows or sets the current volume. For best performance, it is recommended to leave this at 100 and adjust volume on an individual basis within Discord
+### `volume [0-150]` (or `vol [0-150]`)
+Shows or sets the current volume. For best performance, it is recommended to leave this at 100 and adjust volume on an individual basis within Discord
 
-### Admin Commands
+## 📜 Admin Commands
 Admin commands can be used by anyone with the Manage Server permission.
 
-**`setdj <rolename>`** - sets the DJ role. Users with this role will be able to use DJ commands.
+### `setdj <rolename>`
+Sets the DJ role. Users with this role will be able to use DJ commands.
 
-**`setdj none`** - clears the DJ role. Only Admins will be able to use the DJ commands.
+### `setdj none`
+Clears the DJ role. Only Admins will be able to use the DJ commands.
 
-**`settc <channel>`** - sets the text channel for music commands. Using music commands in other channels will result in them being deleted (if possible), and a warning sent via DMs to use the correct channel. Additionally, if the bot has the Manage Channel permission in the set channel, it will adjust the topic to show the current track.
+### `settc <channel>`
+Sets the text channel for music commands. Using music commands in other channels will result in them being deleted (if possible), and a warning sent via DMs to use the correct channel. Additionally, if the bot has the Manage Channel permission in the set channel, it will adjust the topic to show the current track.
 
-**`settc none`** - clears the text channel
+### `settc none`
+Clears the text channel
 
-**`setvc <channel>`** - sets the voice channel for playing music. When set, the bot will only connect to the specified channel when users attempt to play music.
+### `setvc <channel>`
+Sets the voice channel for playing music. When set, the bot will only connect to the specified channel when users attempt to play music.
 
-**`setvc none`** - clears the voice channel for playing music. This means that users can play music from any channel that the bot can connect to (if the bot is not already in a different channel)
+### `setvc none`
+Clears the voice channel for playing music. This means that users can play music from any channel that the bot can connect to (if the bot is not already in a different channel)
 
-### Owner Commands
+## 📜 Owner Commands
 These commands can only be used by the bot owner (set in the config)
 
-**`autoplaylist <playlistname>`** - sets the default playlist for the server, which plays when the queue is empty and when the bot starts up (identical to `playlist setdefault`)
+### `autoplaylist <playlistname>`
+Sets the default playlist for the server, which plays when the queue is empty and when the bot starts up (identical to `playlist setdefault`)
 
-**`playlist append <playlistname> <item> | [item] | [item]...`** - adds items to an existing playlist. Items must be urls. To add a YouTube search, it must be in the form "ytsearch:query". For a SoundCloud search, use "scsearch:query".
+### `playlist append <playlistname> <item> | [item] | [item]...`
+Adds items to an existing playlist. Items must be urls. To add a YouTube search, it must be in the form "ytsearch:query". For a SoundCloud search, use "scsearch:query".
 
-**`playlist delete <playlistname>`** - deletes the playlist file for a playlist
+### `playlist delete <playlistname>`
+Deletes the playlist file for a playlist
 
-**`playlist make <playlistname>`** - creates a new, empty playlist
+### `playlist make <playlistname>`
+Creates a new, empty playlist
 
-**`playlist setdefault <playlistname>`** - sets the default playlist for the server, which plays when the queue is empty and when the bot starts up
+### `playlist setdefault <playlistname>`
+Sets the default playlist for the server, which plays when the queue is empty and when the bot starts up
 
-**`playlist setdefault none`** - clears the default playlist
+### `playlist setdefault none`
+Clears the default playlist
 
-**`setavatar <url>`** - sets the avatar of the bot
+### `setavatar <url>`
+Sets the avatar of the bot
 
-**`setgame [game]`** - sets the game the bot is playing
+### `setgame [game]`
+Sets the game the bot is playing
 
-**`setgame stream <username> <game name>`** - sets the game the bot is "streaming"
+### `setgame stream <username> <game name>`
+Sets the game the bot is "streaming"
 
-**`setname <name>`** - sets the username of the bot
+### `setname <name>`
+Sets the username of the bot
 
-**`setstatus <status>`** - sets the status of the bot (online, idle, dnd, invisible)
+### `setstatus <status>`
+Sets the status of the bot (online, idle, dnd, invisible)
 
-**`shutdown`** - safely shuts down
+### `shutdown`
+Safely shuts down
