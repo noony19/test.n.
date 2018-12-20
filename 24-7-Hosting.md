@@ -2,7 +2,7 @@ _I want to run this bot 24/7! How can I do this?_
 
 Well, there are many options available; I've described several of the most-common options below, including their pros (+) and cons (-).
 
-## 🖥 Online Hosting
+## 🌐 Online Hosting
 
 ### OVH
 ```diff
@@ -35,7 +35,7 @@ Well, there are many options available; I've described several of the most-commo
 
 <br>
 
-## 🖥 Home Hosting
+## 🏠 Home Hosting
 
 ### Desktop PC
 ```diff
@@ -62,7 +62,7 @@ Well, there are many options available; I've described several of the most-commo
 
 <br>
 
-## 🖥 Don't Use This Hosting
+## 🚫 Don't Use This Hosting
 
 ### Heroku
 ```diff
