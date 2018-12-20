@@ -33,6 +33,7 @@ Well, there are many options available; I've described several of the most-commo
 - Billed for usage above certain limits
 ```
 
+<br>
 
 ## 🖥 Home Hosting
 
@@ -59,6 +60,7 @@ Well, there are many options available; I've described several of the most-commo
 - Possible poor performance for multiple streams
 ```
 
+<br>
 
 ## 🖥 Don't Use This Hosting
 
