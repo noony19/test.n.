@@ -1,6 +1,6 @@
 _I want to run this bot 24/7! How can I do this?_
 
-Well, there are many options available; I've described several of the most-common options below, including their pros and cons.
+Well, there are many options available; I've described several of the most-common options below, including their pros (+) and cons (-).
 
 ## 🖥 Online Hosting
 
