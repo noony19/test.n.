@@ -4,7 +4,7 @@
 
 ## 🔢 [[Setup]] ![Release](https://img.shields.io/github/release/jagrosh/MusicBot.svg)
 
-## 🖥 [[24/7 Hosting|24 7 Hosting]]
+## ⏰ [[24/7 Hosting|24 7 Hosting]]
 
 ## 📃 [[Playlists]]
 
