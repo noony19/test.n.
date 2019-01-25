@@ -14,14 +14,14 @@
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token=BOT_TOKEN_HERE
+token = BOT_TOKEN_HERE
 
 
 // This sets the owner of the bot
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner=0
+owner = 0
 
 
 // This sets the prefix for the bot
@@ -30,7 +30,7 @@ owner=0
 // If you do not set this, the prefix will be a mention of the bot (@Botname play)
 // If you make this blank, the bot will not use a prefix
 
-prefix="@mention"
+prefix = "@mention"
 
 
 // If you set this, it modifies the default game of the bot
@@ -40,42 +40,42 @@ prefix="@mention"
 // where X is the title. If you don't include an action, it will use the
 // default of "Playing"
 
-game="DEFAULT"
+game = "DEFAULT"
 
 
 // If you set this, it will modify the default status of bot
 // Valid values: ONLINE IDLE DND INVISIBLE
 
-status=ONLINE
+status = ONLINE
 
 
 // If you set this to true, the bot will list the title of the song it is currently playing in its
 // "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
 // if the bot is playing on multiple guilds, this will not work.
 
-songinstatus=false
+songinstatus = false
 
 
 // If you set this, the bot will also use this prefix in addition to
 // the one provided above
 
-altprefix="NONE"
+altprefix = "NONE"
 
 
 // If you set these, it will change the various emojis
 
-success="🎶"
-warning="💡"
-error="🚫"
-loading="⌚"
-searching="🔎"
+success = "🎶"
+warning = "💡"
+error = "🚫"
+loading = "⌚"
+searching = "🔎"
 
 
 // If you set this, you change the word used to view the help.
 // For example, if you set the prefix to !! and the help to cmds, you would type
 // !!cmds to see the help text
 
-help=help
+help = "help"
 
 
 // If you set this, the "nowplaying" command will show youtube thumbnails
@@ -83,33 +83,33 @@ help=help
 // This is because refreshing the boxes causes the image to be reloaded
 // every time it refreshes.
 
-npimages=false
+npimages = false
 
 
 // If you set this, the bot will not leave a voice channel after it finishes a queue.
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 
-stayinchannel=false
+stayinchannel = false
 
 
 // This sets the maximum amount of seconds any track loaded can be. If not set or set
 // to any number less than or equal to zero, there is no maximum time length. This time
 // restriction applies to songs loaded from any source.
 
-maxtime=0
+maxtime = 0
 
 
 // This sets an alternative folder to be used as the Playlists folder
 // This can be a relative or absolute path
 
-playlistsfolder=Playlists
+playlistsfolder = Playlists
 
 
 // By default, the bot will DM the owner if the bot is running and a new version of the bot
 // becomes available. Set this to false to disable this feature.
 
-updatealerts=true
+updatealerts = true
 
 
 // If you set this to true, it will enable the eval command for the bot owner. This command
@@ -123,5 +123,5 @@ updatealerts=true
 // DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT THIS DOES OR HOW TO USE IT
 // IF SOMEONE ASKS YOU TO ENABLE THIS, THERE IS AN 11/10 CHANCE THEY ARE TRYING TO SCAM YOU
 
-eval=false
+eval = false
 ```
