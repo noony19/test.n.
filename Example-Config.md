@@ -27,8 +27,7 @@ owner = 0
 // This sets the prefix for the bot
 // The prefix is used to control the commands
 // If you use !!, the play command will be !!play
-// If you do not set this, the prefix will be a mention of the bot (@Botname play)
-// If you make this blank, the bot will not use a prefix
+// If you do not set this, the prefix will be an @mention of the bot (@Botname play)
 
 prefix = "@mention"
 
