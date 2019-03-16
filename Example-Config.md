@@ -111,6 +111,17 @@ playlistsfolder = Playlists
 updatealerts = true
 
 
+// Changing this changes the lyrics provider
+// Currently available providers: "A-Z Lyrics", "Genius", "MusicMatch"
+// At the time of writing, I would recommend sticking with A-Z Lyrics or MusicMatch,
+// as Genius tends to have a lot of non-song results and you might get something 
+// completely unrelated to what you want.
+// If you are interested in contributing a provider, please see
+// https://github.com/jagrosh/JLyrics
+
+lyrics.default = "MusicMatch"
+
+
 // If you set this to true, it will enable the eval command for the bot owner. This command
 // allows the bot owner to run arbitrary code from the bot's account.
 //
