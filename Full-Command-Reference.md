@@ -19,6 +19,9 @@ Shows the settings for the current server. This includes Text Channel, Voice Cha
 ## 📜 Music Commands
 These commands are related to playing music, available to all users. If a TextChannel is set, these commands can only be used in that channel. 
 
+### `lyrics [song name]`
+Fetches the lyrics for the provided song name, or the currently-playing song if no name is provided
+
 ### `nowplaying` (or `np` or `current`)
 Shows information about the song that is currently playing (name, user that added it, current timestamp, and song URL)
 
