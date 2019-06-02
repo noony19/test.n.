@@ -68,6 +68,9 @@ All Admins can automatically use DJ commands. Admins can also assign one server 
 ### `forceskip` (or `modskip`)
 Forcibly skips the current song, regardless of who added it and how many votes there are to skip it
 
+### `movetrack <from> <to>` (or `move`)
+Moves the track at position <from> in the queue to position <to>
+
 ### `pause`
 Pauses the player. The player remains paused until a DJ or Admin uses the `play` command
 
