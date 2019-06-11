@@ -1,6 +1,6 @@
 # Windows
 * Go to this page: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-* Under **Java SE Development Kit 8u191** (or latest) click to accept the license agreement
+* Under **Java SE Development Kit 8u211** (or latest) click to accept the license agreement
 * Download the windows `.exe` for your operating system (32 bit or 64 bit)
 * Use the `.exe` to install
 
@@ -28,6 +28,6 @@ sudo update-alternatives --config java
 
 # Mac
 * Go to this page: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-* Under **Java SE Development Kit 8u121** click to accept the license agreement
+* Under **Java SE Development Kit 8u211** click to accept the license agreement
 * Download the mac `.dmg`
 * Use the `.dmg` to install
