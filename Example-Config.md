@@ -36,8 +36,10 @@ prefix = "@mention"
 // Set this to NONE to have no game
 // Set this to DEFAULT to use the default game
 // You can make the game "Playing X", "Listening to X", or "Watching X"
-// where X is the title. If you don't include an action, it will use the
-// default of "Playing"
+// (ex: "Listening to some cool music" or "Watching you...")
+// where X is what you want the game listed to be. If you don't include 
+// an action, it will use the default of "Playing"
+// (ex: "games" will display "Playing games" within Discord)
 
 game = "DEFAULT"
 
