@@ -1,5 +1,6 @@
 ## Music never starts playing!
 If the bot runs, but when you start to play music it never starts and is stuck at `0:00`, try some of these potential fixes:
-* **Check your Java version** - You can run `java -version` at the command line to check your Java version. This bot requires JDK 1.8 or higher. OpenJDK _may_ work but is not guaranteed to provide full functionality.
+* **Check your Java version** - You can run `java -version` at the command line to check your Java version. This bot requires JDK 1.8 or higher. OpenJDK _may_ work but is not guaranteed to provide full functionality. Also, for Windows user, make sure you are running 64-bit Java.
 * **Check your hosting** - If you are hosting the bot on a VPS (Virtual Private Server), check which company is hosting it. Discord blocks all voice communication from Hetzner, so if your VPS is from Hetzner, you will not be able to host this music bot nor any other music bot from your VPS.
 * **Check the logs** - There are a few things you can look for in the logs, but generally something like `Request Timed Out` means that the network connection that the bot has may be struggling and possibly unable to support streaming music.
+* **Change your Discord voice region** - Discord frequently makes changes on their end which can cause issues and/or disconnects for JMusicBot. Try changing the region to see if that helps.
