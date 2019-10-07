@@ -12,6 +12,7 @@
 - [[Playlists]]
 - [[Full Command Reference]]
 - [[Example Config]]
+- [[Troubleshooting]]
 
 ***
 
