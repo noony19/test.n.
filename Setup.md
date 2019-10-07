@@ -1,6 +1,6 @@
-## `1.` Install Java JDK 1.8
-* [Java JDK 1.8](https://www.google.com/#q=download+jdk+8) (not OpenJDK)
-* Instructions on how to install JDK 8 on your system: [[Installing-JDK1.8]]
+## `1.` Install Java
+* [Java JRE](https://www.google.com/#q=install+java+jre)
+* Instructions on how to install Java on your system: [[Installing Java]]
 
 <br>
 
