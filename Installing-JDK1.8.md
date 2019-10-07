@@ -3,7 +3,7 @@
 # Windows
 * Go to this page: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 * Under **Java SE Development Kit 8u211** (or latest) click to accept the license agreement
-* Download the windows `.exe` for your operating system (32 bit or 64 bit)
+* Download the windows `.exe` (64 bit/ x64)
 * Use the `.exe` to install
 
 # Linux
