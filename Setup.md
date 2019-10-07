@@ -24,7 +24,10 @@ prefix = "!"
 <br>
 
 ## `4.` Run JMusicBot
-* Double-click the jar file, or run `java -Dnogui=true -jar JMusicBot-X.Y.Z.jar` from the command line. (replace X, Y, and Z with the release numbers)
+* Run the jar file (choose one of these options):
+  * Double-click the jar file (on desktop environments), OR
+  * Run `java -Dnogui=true -jar JMusicBot-X.Y.Z.jar` from the command line (replace X, Y, and Z with the release numbers), OR
+  * Run `nohup java -Dnogui=true -jar JMusicBot-X.Y.Z.jar &` to run in the background (Linux only)
 * Provide the requested information, if prompted.
 * Wait for the "Finished Loading" message.
 
