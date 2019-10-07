@@ -1,3 +1,5 @@
+> ⚠ **Warning: This page is outdated! Please see [[Installing Java]]** ⚠
+
 # Windows
 * Go to this page: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 * Under **Java SE Development Kit 8u211** (or latest) click to accept the license agreement
