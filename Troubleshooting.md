@@ -1,4 +1,9 @@
-## Music never starts playing!
+## ⚠ Music doesn't play if I set the volume to something other than 100!
+If music stops playing when you change the volume, this means that an internal library could not be loaded. This means you are either using an unsupported java version or the wrong jar file.
+* **Check your Java version** - You might be running an unsupported version. Try re-installing the latest 64-bit version of java.
+* **Check your .jar version** - For example, if you're running on Windows, you need _either_ the `JMusicBot-X.Y.Z.jar` or the `JMusicBot-X.Y.Z-Windows.jar` (replacing X.Y.Z with the latest version)
+
+## ⚠ Music never starts playing!
 If the bot runs, but when you start to play music it never starts and is stuck at `0:00`, try some of these potential fixes:
 * **Check your Java version** - You can run `java -version` at the command line to check your Java version. This bot requires JDK 1.8 or higher. OpenJDK _may_ work but is not guaranteed to provide full functionality. Also, for Windows user, make sure you are running 64-bit Java.
 * **Check your hosting** - If you are hosting the bot on a VPS (Virtual Private Server), check which company is hosting it. Discord blocks all voice communication from Hetzner, so if your VPS is from Hetzner, you will not be able to host this music bot nor any other music bot from your VPS.
