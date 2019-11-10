@@ -4,7 +4,7 @@ Well, there are many options available; I've described several of the most-commo
 
 ## 🌐 Online Hosting
 
-### OVH
+### [OVH](https://www.ovh.com/world/vps/vps-ssd.xml)
 ```diff
 + Best power-to-cost ratio
 + No usage limits
@@ -12,7 +12,7 @@ Well, there are many options available; I've described several of the most-commo
 - No free trial
 ```
 
-### DigitalOcean
+### [DigitalOcean](https://www.digitalocean.com/pricing/#Compute)
 ```diff
 + $50 credit with GitHub Student Pack (requires Credit Card and $5 down payment)
 + Useful tutorials
@@ -20,14 +20,14 @@ Well, there are many options available; I've described several of the most-commo
 - Poor power-to-cost ratio
 ```
 
-### Google Cloud
+### [Google Cloud](https://cloud.google.com/compute/all-pricing)
 ```diff
 + $300 free credit (requires Credit Card)
 + Free tier hosting
 - Billed for usage above certain limits
 ```
 
-### Amazon Web Services
+### [Amazon Web Services](https://aws.amazon.com/ec2/)
 ```diff
 + 1 year free credit (requires Credit Card)
 - Billed for usage above certain limits
