@@ -27,7 +27,8 @@ owner = 0
 // This sets the prefix for the bot
 // The prefix is used to control the commands
 // If you use !!, the play command will be !!play
-// If you do not set this, the prefix will be an @mention of the bot (@Botname play)
+// If you do not set this, the prefix will be a mention of the bot (@Botname play)
+// If you make this blank, the bot will not use a prefix
 
 prefix = "@mention"
 
@@ -36,10 +37,8 @@ prefix = "@mention"
 // Set this to NONE to have no game
 // Set this to DEFAULT to use the default game
 // You can make the game "Playing X", "Listening to X", or "Watching X"
-// (ex: "Listening to some cool music" or "Watching you...")
-// where X is what you want the game listed to be. If you don't include 
-// an action, it will use the default of "Playing"
-// (ex: "games" will display "Playing games" within Discord)
+// where X is the title. If you don't include an action, it will use the
+// default of "Playing"
 
 game = "DEFAULT"
 
@@ -54,7 +53,7 @@ status = ONLINE
 // "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
 // if the bot is playing on multiple guilds, this will not work.
 
-songinstatus = false
+songinstatus=false
 
 
 // If you set this, the bot will also use this prefix in addition to
@@ -76,7 +75,7 @@ searching = "🔎"
 // For example, if you set the prefix to !! and the help to cmds, you would type
 // !!cmds to see the help text
 
-help = "help"
+help = help
 
 
 // If you set this, the "nowplaying" command will show youtube thumbnails
@@ -104,13 +103,13 @@ maxtime = 0
 // This sets an alternative folder to be used as the Playlists folder
 // This can be a relative or absolute path
 
-playlistsfolder = Playlists
+playlistsfolder = "Playlists"
 
 
 // By default, the bot will DM the owner if the bot is running and a new version of the bot
 // becomes available. Set this to false to disable this feature.
 
-updatealerts = true
+updatealerts=true
 
 
 // Changing this changes the lyrics provider
@@ -124,6 +123,49 @@ updatealerts = true
 lyrics.default = "A-Z Lyrics"
 
 
+// These settings allow you to configure custom aliases for all commands.
+// Multiple aliases may be given, separated by commas.
+//
+// Example 1: Giving command "play" the alias "p":
+// play = [ p ]
+//
+// Example 2: Giving command "search" the aliases "yts" and "find":
+// search = [ yts, find ]
+
+aliases {
+  // General commands
+  settings = [ status ]
+
+  // Music commands
+  lyrics = []
+  nowplaying = [ np, current ]
+  play = []
+  playlists = [ pls ]
+  queue = [ list ]
+  remove = [ delete ]
+  scsearch = []
+  search = [ ytsearch ]
+  shuffle = []
+  skip = [ voteskip ]
+
+  // Admin commands
+  prefix = [ setprefix ]
+  setdj = []
+  settc = []
+  setvc = []
+
+  // DJ Commands
+  forceremove = [ forcedelete, modremove, moddelete ]
+  forceskip = [ modskip ]
+  movetrack = [ move ]
+  pause = []
+  playnext = []
+  repeat = []
+  skipto = [ jumpto ]
+  stop = []
+  volume = [ vol ]
+}
+
 // If you set this to true, it will enable the eval command for the bot owner. This command
 // allows the bot owner to run arbitrary code from the bot's account.
 //
@@ -135,5 +177,6 @@ lyrics.default = "A-Z Lyrics"
 // DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT THIS DOES OR HOW TO USE IT
 // IF SOMEONE ASKS YOU TO ENABLE THIS, THERE IS AN 11/10 CHANCE THEY ARE TRYING TO SCAM YOU
 
-eval = false
+eval=false
+
 ```
