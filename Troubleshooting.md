@@ -12,5 +12,5 @@ If the bot runs, but when you start to play music it never starts and is stuck a
 
 ## ⚠ Error when loading from YouTube (429)
 If you see an error similar to "Error when loading from YouTube 429" when attempting to play songs from YouTube, it means that YouTube has blocked your bot's IP. Try one of these potential solutions, and see [here](https://github.com/jagrosh/MusicBot/issues/305) for more information:
-* **Change IP addresses* - If you're hosting at home, you may be able to simply turn your router off and back on again. Some online hosts may offer the option to change your IP or to route through a different one.
+* **Change IP addresses** - If you're hosting at home, you may be able to simply turn your router off and back on again. Some online hosts may offer the option to change your IP or to route through a different one.
 * **Turn the bot off for several days** - Keeping the bot offline (or only playing songs from non-youtube sources) for several days will allow YouTube to eventually remove your IP ban.
