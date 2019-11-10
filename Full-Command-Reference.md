@@ -65,10 +65,13 @@ Skips a song if you added it. If you didn't add it, it adds your vote to skip it
 ## 📜 DJ Commands
 All Admins can automatically use DJ commands. Admins can also assign one server role to be the "DJ role," which allows anyone with that role to use these commands as well.
 
+### `forceremove <user>` (or `forcedelete <user>` or `modremove <user>` or `moddelete <user>`)
+Forcibly removes all songs that were added by the specified user
+
 ### `forceskip` (or `modskip`)
 Forcibly skips the current song, regardless of who added it and how many votes there are to skip it
 
-### `movetrack <from> <to>` (or `move`)
+### `movetrack <from> <to>` (or `move <from> <to>`)
 Moves the track at position <from> in the queue to position <to>
 
 ### `pause`
@@ -91,6 +94,12 @@ Shows or sets the current volume. For best performance, it is recommended to lea
 
 ## 📜 Admin Commands
 Admin commands can be used by anyone with the Manage Server permission.
+
+### `prefix <prefix>`
+Sets the server-specific prefix
+
+### `prefix none`
+Clears the server-specific prefix
 
 ### `setdj <rolename>`
 Sets the DJ role. Users with this role will be able to use DJ commands.
@@ -115,6 +124,9 @@ These commands can only be used by the bot owner (set in the config)
 
 ### `autoplaylist <playlistname>`
 Sets the default playlist for the server, which plays when the queue is empty and when the bot starts up (identical to `playlist setdefault`)
+
+### `debug`
+Generates a file containing debug information
 
 ### `playlist append <playlistname> <item> | [item] | [item]...`
 Adds items to an existing playlist. Items must be urls. To add a YouTube search, it must be in the form "ytsearch:query". For a SoundCloud search, use "scsearch:query".
