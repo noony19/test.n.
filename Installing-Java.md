@@ -1,17 +1,18 @@
-> 🚧 **This page is still under construction.** 🚧
+**Generally, a reliable place to find Java builds is [AdoptOpenJDK](https://adoptopenjdk.net/index.html).**
 
-## Windows
 ### 32-bit Windows
-32-bit Windows is not supported
+* 32-bit Windows is not supported
 ### 64-bit Windows
-Required: Java 8 or higher, 64-bit
-
-## Linux
+* Required: Java 8 or higher, 64-bit  
+1. Download from [AdoptOpenJDK](https://adoptopenjdk.net/index.html) or [Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+2. Install downloaded file with default settings
 ### Ubuntu
-Run: `sudo apt-get update && sudo apt-get install latest-jre -y`
+1. Run: `sudo apt-get update && sudo apt-get install latest-jre -y`
 ### Debian 
-1. 
+1. Install `sudo` if not installed (`apt update && apt upgrade && apt install sudo`)  
+2. Run: `sudo apt-get install default-jre`
 ### Raspbian (Raspberry Pi)
-
-
-## Mac
+1. Run: `sudo apt-get install oracle-java8-jdk`
+### Mac
+1. Download from [AdoptOpenJDK](https://adoptopenjdk.net/index.html)
+2. Install downloaded package
