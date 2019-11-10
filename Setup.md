@@ -1,13 +1,13 @@
 ## `1.` Install Java
-* [Java JRE](https://www.google.com/#q=install+java+jre)
 * Instructions on how to install Java on your system: [[Installing Java]]
 
 <br>
 
 ## `2️.` Download JMusicBot
 * Download the latest **JMusicBot-X.Y.Z.jar** (and optionally, example **config.txt** file) from the [releases](https://github.com/jagrosh/MusicBot/releases/latest) page (or, get the URL from the releases page and then use wget or similar command-line tool to download).
-* Your folder should look like this (on desktop):  
+* Your folder should look similar to this (on desktop):  
 ![View](http://i.imgur.com/14x9uDy.png)
+> ⚠ **Note:** The above image is Windows, but it should look similar on all platforms
 > ⚠ **Note:** Do not put this in the *Downloads* or *Desktop*. Use a folder within *Documents*
 
 <br>
