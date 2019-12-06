@@ -71,6 +71,13 @@ Well, there are many options available; I've described several of the most-commo
 - Poor performance
 ```
 
+### Glitch
+```diff
+- No file write access (server settings can't be changed)
+- Usage limits
+- Poor performance
+```
+
 ### Hetzner
 ```diff
 - All voice traffic from Hetzner is blocked by Discord (completely unusable)
