@@ -10,6 +10,12 @@ If the bot runs, but when you start to play music it never starts and is stuck a
 * **Check the logs** - There are a few things you can look for in the logs, but generally something like `Request Timed Out` means that the network connection that the bot has may be struggling and possibly unable to support streaming music.
 * **Change your Discord voice region** - Discord frequently makes changes on their end which can cause issues and/or disconnects for JMusicBot. Try changing the region to see if that helps.
 
+## ⚠ The bot is looking for the config file in an unexpected location!
+This can sometimes happen on Windows. Make sure:
+* **Run the bot from a writable folder** - Use a folder in your 'Documents', not from your Desktop.
+* **Double-Click**, don't use 'Open With'
+* **Use Command Prompt or Powershell** in the folder with the jar and use `java -jar JMusicBot-VERSION_HERE.jar` (replacing the version correctly)
+
 ## ⚠ Error when loading from YouTube (429)
 If you see an error similar to "Error when loading from YouTube 429" when attempting to play songs from YouTube, it means that YouTube has blocked your bot's IP. Try one of these potential solutions, and see [here](https://github.com/jagrosh/MusicBot/issues/305) for more information:
 * **Change IP addresses** - If you're hosting at home, you may be able to simply turn your router off and back on again. Some online hosts may offer the option to change your IP or to route through a different one.
