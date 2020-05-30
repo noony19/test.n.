@@ -77,9 +77,3 @@ Well, there are many options available; I've described several of the most-commo
 - Usage limits
 - Poor performance
 ```
-
-### Hetzner
-```diff
-- All voice traffic from Hetzner is blocked by Discord (completely unusable)
-- See https://twitter.com/discordapp/status/909054616322678786
-```
